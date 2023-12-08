@@ -2,7 +2,7 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.hosts << "docker-test-be2307-1675c153078a.herokuapp.com"
+  config.hosts << "docker-test-be2307-prod-356433bfa246.herokuapp.com"
 
   # Code is not reloaded between requests.
   config.cache_classes = true
