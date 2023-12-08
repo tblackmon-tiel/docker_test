@@ -22,6 +22,7 @@ module DockerTest
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    config.hosts << "docker-test-be2307-1675c153078a.herokuapp.com"
 
     # Configuration for the application, engines, and railties goes here.
     #
